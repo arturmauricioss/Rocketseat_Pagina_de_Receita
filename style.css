@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+:root{
+  --var-color_surface1:#573824;
+  --var-color_surface2:#F0E8C2;
+  --var-color_text_3:#291B1A;
+  --var-color_text_4:#573A37;
+  --var-color_text_5:#F0E8C2;
+}
+body{
+  background-image: url(./assets/main-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
