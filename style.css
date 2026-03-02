@@ -2,6 +2,7 @@
   margin: 0;
   padding:0;
   box-sizing: border-box;
+  font-family: "Alice", serif;
 }
 :root{
   --var-color_surface1:#573824;
@@ -14,4 +15,19 @@ body{
   background-image: url(./assets/main-image.png);
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding:20px;
+  flex-direction: column;
+}
+main{
+  background-color: var(--var-color_surface2);
+  max-width: 800px;
+  padding: 24px;
+}
+#imagem_central{
+  max-width: 752px;
+}
+.lista_descritiva>li{
+  list-style-type: none;
 }
