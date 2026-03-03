@@ -19,15 +19,22 @@ body{
   justify-content: center;
   padding:20px;
   flex-direction: column;
+  min-height: 100vh;
 }
 main{
   background-color: var(--var-color_surface2);
   max-width: 800px;
   padding: 24px;
+  margin: auto;
+  border-radius: 24px;
 }
 #imagem_central{
   max-width: 752px;
+  border-radius: 12px;
 }
 .lista_descritiva>li{
   list-style-type: none;
+}
+footer{
+  text-align: center;
 }
